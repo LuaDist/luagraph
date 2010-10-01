@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "luagraph"
+version = "1.0.3a"
+
+desc = "LuaGRAPH is a binding to the graphviz library."
+author = "Herbert Leuwer"
+license = "MIT"
+url = "http://luaforge.net"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"graphviz >= 2.20.2"
+}
